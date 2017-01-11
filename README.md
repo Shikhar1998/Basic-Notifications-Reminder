@@ -2,9 +2,8 @@
 
 # About The Project: 
 
-This Application uses the Facebook Graph API(https://developers.facebook.com/docs/graph-api) inorder to fetch data from the user's Facebook Feed and display any new posts on the LCD Display as a notification bar through an ARDUINO.
+This Application uses the Facebook Graph API(https://developers.facebook.com/docs/graph-api) inorder to fetch data from the user's Facebook Feed and display any new posts (and most recent message of post ) on the LCD Display as a notification bar through an ARDUINO.
 
-Along with it also displays the most recent message on the notification bar .
 
 
 # Requirements:
