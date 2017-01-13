@@ -1,12 +1,14 @@
-# Basic-Facebook-Notifications-Reminder
+#Facebook-Feed-Notification-Display
 
-# About The Project: 
+**About The Project**: 
 
-This Application uses the Facebook Graph API(https://developers.facebook.com/docs/graph-api) inorder to fetch data from the user's Facebook Feed and display any new posts (and most recent message of post ) on the LCD Display as a notification bar through an ARDUINO.
+This application is used to display the recent notifications(on feed) of Facebook on a LCD Display.
+...
+1. [Requirements](#requirements)
+2. [Installation](#installation)
+3. [Working](#working)
 
-
-
-# Requirements:
+#### Requirements:
 
 1 . Facebook ID 
 
@@ -15,3 +17,11 @@ This Application uses the Facebook Graph API(https://developers.facebook.com/doc
 3 . Arduino UNO
 
 4 . LCD Display
+
+#### Installation :
+
+1. Installing the Package:
+
+     git clone https://github.com/Shikhar1998/Basic-Facebook-Notifications-Reminder.git && cd fb/
+     pip install -r requirements.txt
+     python sc.py
