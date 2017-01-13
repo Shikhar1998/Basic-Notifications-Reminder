@@ -33,12 +33,27 @@ This application is used to display the recent notifications(on feed) of Faceboo
 
      1 . Open https://developers.facebook.com/apps/ and Create an App
      
-     2 . 
+     2 . Follow steps below 
      
-     2 . Go to https://developers.facebook.com/tools/explorer/
+     ![](screen.gif?raw=true)
+  
+3. Connect the LCD screen to Arduino
 
-     1 . Go to directory fb where the package is installed.
-     
-     2 . Open File main.py and go to line >> 9  
+4.   python scheduer.py
+          
+### Working :
+
+1. Extracts data from fb using Facebook Graph API
+
+2. Check from log when last data was collected and the time seperation from most recent feed post and the log data file.
+
+3. Fetch the number of new posts and the most recent post.
+
+4. Send the data to Arduino connected to LCD Screen which displays it.
+
+
+Thank You
+
+Any Improvements :Feel free to ping!!
      
 
