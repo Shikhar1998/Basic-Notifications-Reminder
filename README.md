@@ -4,6 +4,7 @@
 
 This application is used to display the recent notifications(on feed) of Facebook on a LCD Display.
 ...
+
 1. [Requirements](#requirements)
 
 2. [Installation](#installation)
