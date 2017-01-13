@@ -3,7 +3,8 @@
 **About The Project**: 
 
 This application is used to display the recent notifications(on feed) of Facebook on a LCD Display.
-...
+
+**Contents**:
 
 1. [Requirements](#requirements)
 
