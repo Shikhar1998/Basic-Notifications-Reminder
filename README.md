@@ -26,7 +26,7 @@ This application is used to display the recent notifications(on feed) of Faceboo
 
 1. Installing the Package :
 
-     git clone https://github.com/Shikhar1998/Basic-Facebook-Notifications-Reminder.git && cd fb/
+     run >> git clone https://github.com/Shikhar1998/Basic-Facebook-Notifications-Reminder.git && cd fb/
      pip install -r requirements.txt
      
 2. Getting Facebook Access Token :
@@ -39,9 +39,9 @@ This application is used to display the recent notifications(on feed) of Faceboo
   
 3. Connect the LCD screen to Arduino
 
-4.   python scheduer.py
+4.  run >>python scheduer.py
           
-### Working :
+#### Working :
 
 1. Extracts data from fb using Facebook Graph API
 
