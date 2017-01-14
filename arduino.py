@@ -4,7 +4,7 @@ import time
 import main
 def run():
     s = serial.Serial("11", 9600) #port is 11 (for COM12), and baud rate is 9600
-    time.sleep(1)    #wait for the Serial to initialize"""
+    time.sleep(0.5)    #wait for the Serial to initialize"""
     #s.write('Ready...')
     a,b,c = main.main()
     """s.write"""
