@@ -26,7 +26,8 @@ This application is used to display the recent notifications(on feed) of Faceboo
 
 1. Installing the Package :
 
-     run >> git clone https://github.com/Shikhar1998/Basic-Facebook-Notifications-Reminder.git && cd fb/
+     run >> git clone https://github.com/Shikhar1998/Basic-Facebook-Notifications-Reminder.git 
+     cd/Basic-Facebook-Notifications-Reminder
      pip install -r requirements.txt
      
 2. Getting Facebook Access Token :
