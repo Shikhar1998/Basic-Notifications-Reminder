@@ -34,7 +34,7 @@ The Facebook Notifier is a real-ime Facebook Notifications Display . The project
 
 Please follow the steps below:
 
-1. Installing the package : 
+####1. Installing the package : 
 Enter the following commands in the terminal(Linux Users)/cmd(Windows Users) :
 
 `git clone https://github.com/Shikhar1998/Basic-Facebook-Notifications-Reminder.git `
@@ -43,23 +43,25 @@ This will clone the repository from github create a folder Shikhar1998/Basic-Fac
  
 Now installing all the packages required for this project :
 
-`""cd/Basic-Facebook-Notifications-Reminder 
-pip install -r requirements.txt""`
+`""cd/Basic-Facebook-Notifications-Reminder `
+
+`pip install -r requirements.txt""`
  
 This will install the packages from the internet otherwise show ""Requirment already satisfied""
 
-2. Linking Facebook and Python  :
+####2. Linking Facebook and Python  :
 1. Login to your Facebook Account.
+
 2. Create a New Facebook App : https://developers.facebook.com/docs/graph-api
  
 3. Now open the link : https://developers.facebook.com/tools/explorer
+
 4. In the application bar select your app and then click "Get User Access Token" from the "Get Token" option.
-.
  
 5. Copy the access token and open the file in python - main.py in the folder  "Basic-Facebook-Notifications-Reminder" and in line 9 enter the App Token.
  
  
-3. Connect the Arduino and the LCD Screen 
+####3. Connect the Arduino and the LCD Screen 
 1 . Solder the pin headers to the LCD Display.
  
 2 . Make the following connection to the arduino and the LCD Screen.
