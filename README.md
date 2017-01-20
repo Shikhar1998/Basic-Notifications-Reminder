@@ -1,57 +1,67 @@
-#Facebook-Feed-Notification-Display
+##DOCUMENTATION## 
 
-**About The Project**: 
+####FACEBOOK NOTIFIER####  
 
-This application is used to display the recent notifications(on feed) of Facebook on a LCD Display.
+####PROJECT OVERVIEW#### : 
+The Facebook Notifier is a real-ime Facebook Notifications Display . The project uses the Facebook Graph API inorder to fetch data from your Facebook page and notifies you if there are any new notifications .
 
-**Contents**:
+####INSTALLATION GUIDE #####: 
 
-1. [Requirements](#requirements)
+1. Requirements : 
+	a. Facebook ID
+	b. Facebook App with permission to extract feed data
+	c. Valid Access Token
+	d. Arduino UNO
+	e. BreadBoard
+	f. LCD Display(16X2)
+	g. Jumper Wires
+	h. Python 2.7 or higher
+	i. An Internet Connection
+	j. 10K Potentiometer
+	k. Pin Headers
+2. Installation : 
+Please follow the steps below:
+1. Installing the package : 
+Enter the following commands in the terminal(Linux Users)/cmd(Windows Users) :
+""git clone https://github.com/Shikhar1998/Basic-Facebook-Notifications-Reminder.git  ""
+This will clone the repository from github create a folder Shikhar1998/Basic-Facebook-Notifications-Reminder in your Local Drive.
+ 
+Now installing all the packages required for this project : 
+""cd/Basic-Facebook-Notifications-Reminder 
+pip install -r requirements.txt""
+ 
+This will install the packages from the internet otherwise show ""Requirment already satisfied""
 
-2. [Installation](#installation)
+2. Linking Facebook and Python  :
+1. Login to your Facebook Account.
+2. Create a New Facebook App : https://developers.facebook.com/docs/graph-api
+ 
+3. Now open the link : https://developers.facebook.com/tools/explorer
+4. In the application bar select your app and then click "Get User Access Token" from the "Get Token" option.
+.
+ 
+5. Copy the access token and open the file in python - main.py in the folder  "Basic-Facebook-Notifications-Reminder" and in line 9 enter the App Token.
+ 
+ 
+3. Connect the Arduino and the LCD Screen 
+1 . Solder the pin headers to the LCD Display.
+ 
+2 . Make the following connection to the arduino and the LCD Screen.
+ 
 
-3. [Working](#working)
+3. Features :
+1. Highly automated and requires only one time configuration.
+2. Easily can be implemented to notify you for posts from a particular group or page.
+3. Will automatically display any new posts after every 10 minutes and also display the most recent message along with the sender's name.
+ 
+4. Issues :
+Any improvements or issues : https://github.com/Shikhar1998/Basic-Facebook-Notifications-Reminder
+Please report or open a new issue.
 
-#### Requirements:
-
-1 . Facebook ID 
-
-2 . Allowing access to Graph API.
-
-3 . Arduino UNO
-
-4 . LCD Display
-
-#### Installation :
-
-1. Installing the Package :
-
-     run >> git clone https://github.com/Shikhar1998/Basic-Facebook-Notifications-Reminder.git 
-     cd/Basic-Facebook-Notifications-Reminder
-     pip install -r requirements.txt
-     
-2. Getting Facebook Access Token :
-
-     1 . Open https://developers.facebook.com/apps/ and Create an App
-     
-     2 . Follow steps below 
-     
-     ![](screen.gif?raw=true)
-  
-3. Connect the LCD screen to Arduino
-
-4.  run >>python scheduer.py
-          
-#### Working :
-
-1. Extracts data from fb using Facebook Graph API
-
-2. Check from log when last data was collected and the time seperation from most recent feed post and the log data file.
-
-3. Fetch the number of new posts and the most recent post.
-
-4. Send the data to Arduino connected to LCD Screen which displays it.
-
+5. Future Upgrades Possible : 
+1. Linking Gmail and Twitter similarly with Arduino using Gmail API v1
+For Gmail (https://developers.google.com/gmail/api/v1)  
+For Twitter (https://dev.twitter.com/rest/public)
 
 Thank You
 
