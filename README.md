@@ -1,26 +1,39 @@
-##DOCUMENTATION## 
+##DOCUMENTATION
 
-####FACEBOOK NOTIFIER####  
+###FACEBOOK NOTIFIER  
 
-####PROJECT OVERVIEW#### : 
+####PROJECT OVERVIEW: 
 The Facebook Notifier is a real-ime Facebook Notifications Display . The project uses the Facebook Graph API inorder to fetch data from your Facebook page and notifies you if there are any new notifications .
 
-####INSTALLATION GUIDE #####: 
+####INSTALLATION GUIDE : 
 
 1. Requirements : 
+
 	a. Facebook ID
+	
 	b. Facebook App with permission to extract feed data
+	
 	c. Valid Access Token
+	
 	d. Arduino UNO
+	
 	e. BreadBoard
+	
 	f. LCD Display(16X2)
+	
 	g. Jumper Wires
+	
 	h. Python 2.7 or higher
+	
 	i. An Internet Connection
+	
 	j. 10K Potentiometer
+	
 	k. Pin Headers
 2. Installation : 
+
 Please follow the steps below:
+
 1. Installing the package : 
 Enter the following commands in the terminal(Linux Users)/cmd(Windows Users) :
 ""git clone https://github.com/Shikhar1998/Basic-Facebook-Notifications-Reminder.git  ""
