@@ -36,12 +36,15 @@ Please follow the steps below:
 
 1. Installing the package : 
 Enter the following commands in the terminal(Linux Users)/cmd(Windows Users) :
-""git clone https://github.com/Shikhar1998/Basic-Facebook-Notifications-Reminder.git  ""
+
+`git clone https://github.com/Shikhar1998/Basic-Facebook-Notifications-Reminder.git `
+
 This will clone the repository from github create a folder Shikhar1998/Basic-Facebook-Notifications-Reminder in your Local Drive.
  
-Now installing all the packages required for this project : 
-""cd/Basic-Facebook-Notifications-Reminder 
-pip install -r requirements.txt""
+Now installing all the packages required for this project :
+
+`""cd/Basic-Facebook-Notifications-Reminder 
+pip install -r requirements.txt""`
  
 This will install the packages from the internet otherwise show ""Requirment already satisfied""
 
