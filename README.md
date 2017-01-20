@@ -63,7 +63,8 @@ This will install the packages from the internet otherwise show ""Requirment alr
 ####3. Connect the Arduino and the LCD Screen 
 1 . Solder the pin headers to the LCD Display.
  
-2 . Make the following connection to the arduino and the LCD Screen.
+2 . Make the following connection to the arduino and the LCD Screen as explained in following tutorial.
+(https://programmingelectronics.com/how-to-set-up-an-lcd-with-arduino/)
  
 
 
